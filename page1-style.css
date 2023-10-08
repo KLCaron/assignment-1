@@ -1,0 +1,119 @@
+body {
+    background-color: #e5e9ef;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#upper {
+    box-shadow: 0 0 15px 0 rgb(0, 0, 0, 0.2);
+    width: 910px;
+    height: 600px;
+    margin: 2% 2%;
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    width: 300px;
+    height: 89%;
+    background-color: white;
+}
+.box > * {
+    text-align: center;
+    width: 100%;
+    height: 36px;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+}
+h1:not(div#lower > *) {
+    top: 10px;
+}
+h1:not(div#upper > *) {
+    padding-top: 24px;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+li {
+    font-weight: 300;
+    list-style-type: none;
+}
+ul:not(.lowerList) li {
+    position: relative;
+    left: -40px;
+}
+ul:not(.lowerList) li:not(:first-child) {
+    padding: 20px 0;
+}
+ul:not(.lowerList) li:nth-child(odd) {
+    background-color: rgba(47, 59, 64, 0.35);
+}
+strong {
+    font-weight: 600;
+}
+#money {
+    font-weight: 800;
+}
+.money {
+    font-size: 36px;
+}
+#budgetStudent ul li:first-child {
+    background-color: #5BB189;
+}
+#standardStudent ul li:first-child {
+    background-color: #4B0082;
+}
+#scholarshipStudent ul li:first-child {
+    background-color: #EC632A;
+}
+.box ul li:first-child {
+    height: 250%;
+    line-height: 500%;
+    text-align: center;
+}
+#standardStudent {
+    background-color: #2f4f4f;
+    color: white;
+}
+#lower {
+    margin: 2%;
+    background-color: #2f4f4f;
+    width: 910px;
+    height: 250px;
+    color: white;
+    box-shadow: 0 0 15px 0 rgb(0, 0, 0, 0.2);
+}
+#lower > * {
+    margin: 0 30px;
+}
+.lowerList li {
+    margin: 15px;
+    font-weight: 400;
+    background-image: url(images/checkmark.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    padding-left: 30px;
+}
+p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.button {
+    font-weight: 600;
+    background-color: #3a6ba5;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 15px 0 rgb(0, 0, 0, 0.2);
+    padding: 10px 90px;
+    border-radius: 4px;
+    position: relative;
+    top: 20px;
+}
+.button:hover {
+    color: #437CBF;
+}
+a:not(.button) {
+    font-style: italic;
+}

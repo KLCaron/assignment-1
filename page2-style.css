@@ -1,0 +1,112 @@
+@import url('variables-palette-7.css');
+body {
+    font-family: sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+h1 {
+    background-color: var(--color-primary-1-800);
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+#searchBoxes {
+    background-color: var(--color-neutral-100);
+    height: 7vh;
+}
+#searchBoxes > * {
+    margin: 2vh 0.2vw;
+    position: relative;
+    left: 1vw;
+}
+input[name="search"] {
+    height: 3.5vh;
+    width: 50vh;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1vh;
+}
+input[type="radio"] {
+    width: 2.5vh;
+    height: 2.5vh;
+}
+select {
+    height: 3.5vh;
+    width: 7vw;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1vw;
+    background-color: white;
+}
+#applyToAll {
+    height: 3.5vh;
+    width: 7vw;
+    border-radius: 5px;
+}
+#results {
+    background-color: var(--color-neutral-100);
+}
+#more {
+    background-color: var(--color-neutral-100);
+    height: 7vh;
+}
+#more > * {
+    margin: 2vh 0;
+    position: relative;
+    left: 1vw;
+}
+h2 {
+    background-color: var(--color-primary-1-600);
+    color: white;
+    text-align: center;
+    height: 5vh;
+    margin: 2vh;
+    position: relative;
+    top: 2vh;
+    width: 98%;
+    font-weight: 400;
+}
+tr:first-of-type {
+    background-color: var(--color-primary-1-050);
+}
+tr:not(tr:last-of-type) {
+    border-bottom: 1px solid var(--color-neutral-200)
+}
+th:not(th:first-of-type) {
+    text-align: justify;
+}
+th {
+    font-weight: 400;
+}
+table {
+    width: 98%;
+    margin: 2vh;
+    border-collapse: collapse;
+}
+td {
+    padding: 1vh 0;
+}
+input[type="checkbox"] {
+    width: 2.5vh;
+    height: 2.5vh;
+    position: relative;
+    bottom: 5vh;
+}
+#applyToAllButton {
+    background-color: var(--color-primary-1-500);
+    color: white;
+    height: 3.5vh;
+    width: 6vw;
+}
+img.portrait {
+    width: 12vh;
+    height: 12vh;
+    margin: 0 2vw;
+}
+span:not(span#subject) {
+    position: relative;
+    bottom: 5vh;
+    font-style: italic;
+}
