@@ -99,6 +99,7 @@ input[type="checkbox"] {
     color: white;
     height: 3.5vh;
     width: 6vw;
+    white-space: nowrap;
 }
 img.portrait {
     width: 12vh;
